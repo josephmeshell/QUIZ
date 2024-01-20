@@ -1,0 +1,163 @@
+/* Now we can add css there for styling that complete quiz app */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #0f4d92, #001f4d);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;  
+}
+
+.container {
+    background: linear-gradient(45deg, #001f4d, #0f4d92);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-container {
+    text-align: left;
+    animation: sideIn 1s ease-in-out;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+    
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background: linear-gradient(45deg, #0047ab, #0091ea);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+    transform-origin: left center;
+    animation: fadein 0.5s ease-in-out;
+}
+
+.option:hover {
+    background: linear-gradient(45deg, #0091ea, #0047ab);
+    transform: scale(1.05);
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#next {
+    background: linear-gradient(45deg, #0047ab, #00bfa5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    display: none;
+    animation: fadeIn 0,5s ease-in-out;
+}
+
+#next:hover {
+    background: linear-gradient(45deg, #00bfa5, #00796b);
+} 
+
+#play-again {
+background: linear-gradient(45deg, #d50000, #ff6d00);
+color: #fff;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 18px;
+margin-top: 20px;
+transition: background-color 0.3s;
+display: none;
+animation: fadeIn 0.5s ease-in-out;
+}
+
+#play-again:hover {
+    background: linear-gradient(45deg, #ff6d00, #d50000);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
